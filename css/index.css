@@ -32,24 +32,31 @@ body {
 	line-height: 1;
 }
 
-.homeHeader {
+.Header {
     height: 250px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding-bottom: 20px;
 }
 
-.homeHeader .homeHeaderNav {
+.Header .HeaderNav {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.homeHeader .homeHeaderNav a {
+.Header .HeaderNav a {
     padding-top: 15px;
     color: black;
     text-decoration: none;
+}
+
+.aboutInfo {
+    padding-bottom: 25px;
+    border-bottom: 1px dashed black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
 }
 
 ol, ul {
