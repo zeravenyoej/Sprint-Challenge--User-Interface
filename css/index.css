@@ -33,13 +33,24 @@ body {
 }
 
 .homeHeader {
-    border: 1px solid grey;
-    height: 100px;
+    height: 250px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
+.homeHeader .homeHeaderNav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.homeHeader .homeHeaderNav a {
+    padding-top: 15px;
+    color: black;
+    text-decoration: none;
+}
 
 ol, ul {
 	list-style: none;
