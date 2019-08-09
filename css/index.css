@@ -51,13 +51,6 @@ body {
     text-decoration: none;
 }
 
-.aboutInfo {
-    padding-bottom: 25px;
-    border-bottom: 1px dashed black;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    
-}
 
 ol, ul {
 	list-style: none;
@@ -211,4 +204,19 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.aboutInfo {
+    padding-bottom: 25px;
+    border-bottom: 1px dashed black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contentTop {
+    display: flex;
+}
+
+.contentBottom {
+    display: flex;
 }
