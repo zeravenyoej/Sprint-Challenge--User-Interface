@@ -51,6 +51,12 @@ body {
     text-decoration: none;
 }
 
+.Header .HeaderNav a:hover {
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 20px;
+}
 
 ol, ul {
 	list-style: none;
@@ -218,6 +224,7 @@ footer nav a {
     justify-content: space-between;
 }
 
+
 .contentTop img, .contentBottom img {
     width: 100%;
     padding-bottom: 15px;
@@ -230,8 +237,13 @@ footer nav a {
     border-width: thin;
     margin: 25px 0px 20px 0px;
     padding: 8px 20px; 
-    
 }
+
+.contentTop button:hover, .contentBottom button:hover {
+    background: navajowhite;
+    color: olive
+}
+
 
 .strategy, .howWeWork, .placesWeWork, .collaboration {
     border-bottom: 1px dashed black;
@@ -242,3 +254,4 @@ footer nav a {
 .letsWorkTogether {
     margin: 45px 0px;
 }
+
